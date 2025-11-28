@@ -2,6 +2,26 @@ document.addEventListener('DOMContentLoaded', () => {
   fetch('papers/publications.json')
     .then(response => response.json())
     .then(papers => {
+      // 统计会议数量
+      const conferenceCount = {};
+      papers.forEach(paper => {
+        if (paper.short) {
+          // 提取会议名称（去掉年份后缀，如'22, '23等）
+          const conferenceName = paper.short.replace(/'?\d{2}$/, '').trim();
+          conferenceCount[conferenceName] = (conferenceCount[conferenceName] || 0) + 1;
+        } else {
+          // 没有short字段的认为是中文期刊
+          conferenceCount['Chinese-language journal'] = (conferenceCount['Chinese-language journal'] || 0) + 1;
+        }
+      });
+
+      // 按数量排序
+      const sortedConferences = Object.entries(conferenceCount)
+        .sort((a, b) => b[1] - a[1])
+        .map(([name, count]) => `${name} (${count})`)
+        .join(', ');
+
+      // 生成论文分组
       const grouped = {};
       papers.forEach(paper => {
         if (!grouped[paper.year]) {
@@ -11,6 +31,15 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       const container = document.getElementById('paper-list');
+      
+      // 插入汇总统计
+      if (sortedConferences) {
+        const summaryDiv = document.createElement('div');
+        summaryDiv.className = 'conference-summary';
+        summaryDiv.innerHTML = `<p><strong>Conference Summary:</strong> ${sortedConferences}</p>`;
+        container.appendChild(summaryDiv);
+      }
+
       const sortedYears = Object.keys(grouped).sort((a, b) => parseInt(b) - parseInt(a));
 
       sortedYears.forEach(year => {
