@@ -1,12 +1,47 @@
 <!DOCTYPE html><html lang="en"><head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Qing Wang | Systems</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <title>Qing Wang | Associate Professor, Nanjing University | Systems Research</title>
+  <meta name="description" content="Qing Wang - Associate Professor at School of Computer Science, Nanjing University. Research in storage systems, memory systems, and networked systems. Publications at OSDI, FAST, NSDI, EuroSys, SIGMOD.">
+  <meta name="keywords" content="Qing Wang, Nanjing University, computer systems, storage systems, memory systems, distributed systems, OSDI, FAST, NSDI">
+  <meta name="author" content="Qing Wang">
+  <link rel="canonical" href="https://wangqing.io/">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wangqing.io/">
+  <meta property="og:title" content="Qing Wang | Systems Research">
+  <meta property="og:description" content="Associate Professor at Nanjing University. Research in storage/memory systems and networked systems.">
+  <meta property="og:locale" content="en_US">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Qing Wang | Systems Research">
+  <meta name="twitter:description" content="Associate Professor at Nanjing University. Research in storage/memory and networked systems.">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Qing Wang",
+    "jobTitle": "Associate Professor",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Nanjing University",
+      "url": "https://www.nju.edu.cn"
+    },
+    "url": "https://wangqing.io",
+    "sameAs": [
+      "https://scholar.google.com.hk/citations?user=H3vNc-EAAAAJ",
+      "https://dblp.org/pid/97/6505-31.html"
+    ],
+    "knowsAbout": ["computer systems", "storage systems", "memory systems", "distributed systems", "networked systems"]
+  }
+  </script>
 </head>
 
 <body>
+  <div class="page-wrap">
   <header class="header-flex">
     <img src="assets/wq.jpg" alt="Profile picture" class="avatar-rect">
     <div class="info">
@@ -15,9 +50,8 @@
       <p>School of Computer Science, Nanjing University.</p>
       <p>Email: wangqing.cs at nju dot edu dot cn</p>
       <p>
-        <a href="https://scholar.google.com.hk/citations?user=H3vNc-EAAAAJ" target="_blank" title="Google Scholar" class="bule-tag">
-          Google Scholar</a> |
-        <a href="https://dblp.org/pid/97/6505-31.html" target="_blank" title="DBLP" class="bule-tag"> DBLP</a>
+        <a href="https://scholar.google.com.hk/citations?user=H3vNc-EAAAAJ" target="_blank" rel="noopener noreferrer" title="Google Scholar" class="bule-tag">Google Scholar</a> |
+        <a href="https://dblp.org/pid/97/6505-31.html" target="_blank" rel="noopener noreferrer" title="DBLP" class="bule-tag">DBLP</a>
       </p>
     </div>
   </header>
@@ -31,7 +65,7 @@
         Researcher at Tsinghua University.
       </p>
 
-      <p><strong style="color:#1f77b4">Prospective students:</strong>
+      <p><strong class="accent">Prospective students:</strong>
         We are seeking highly motivated PhD students, Master’s students, and interns. If you're passionate about system
         research and interested in working with me, please feel free to reach out via email.</p>
 
@@ -40,19 +74,18 @@
     <section id="research">
       <h2>Research</h2>
 
-      <p style="margin-bottom: 0;">My research focuses on computer systems, particularly <strong>storage/memory systems</strong> and
-        <strong>networked systems</strong>.
-        <br> The research topics I am currently interested in include:
-         </p><ul style="margin-top: 0;">
-        <li> Distributed systems with memory-semantic interconnects</li>
-        <li> System support for petabyte-scale memory</li>
-        <li> Data management for Agentic AI</li>
-        <li> Sustainable cloud storage</li>
-        </ul>
-      <p></p>
+      <p>My research focuses on computer systems, particularly <strong>storage/memory systems</strong> and
+        <strong>networked systems</strong>.<br>
+        The research topics I am currently interested in include:</p>
+      <ul>
+        <li>Distributed systems with memory-semantic interconnects</li>
+        <li>System support for petabyte-scale memory</li>
+        <li>Data management for Agentic AI</li>
+        <li>Sustainable cloud storage</li>
+      </ul>
 
-      <p style="margin-bottom: 0;"> Here are some of my representative research projects:
-      </p><ul style="margin-top: 0;">
+      <p>Here are some of my representative research projects:</p>
+      <ul>
         <li>
           <strong>Network-Accelerated Distributed Systems</strong>
           <ul>
@@ -71,246 +104,259 @@
             <li>Persistent memory systems <span class="bule-tag">(OSDI'21, USENIX ATC'22/ATC'23)</span></li>
             <li>SSD-extended remote memory <span class="bule-tag">(FAST'24)</span></li>
             <li>Protective remote memory <span class="bule-tag">(FAST'23)</span></li>
-
           </ul>
         </li>
       </ul>
-      <p></p>
     </section>
 
+
+    <section id="services">
+      <h2>Services</h2>
+      <p class="service-label"><strong>Program Committee:</strong></p>
+      <ul class="service-list">
+        <li>USENIX Conference on File and Storage Technologies (FAST 2027)</li>
+        <li>SIGOPS Annual Technical Conference (ATC 2026)</li>
+        <li>European Conference on Computer Systems (EuroSys (fall) 2026)</li>
+      </ul>
+      <p class="service-label"><strong>Journal Reviewing:</strong></p>
+      <ul class="service-list">
+        <li>TOS, TACO, CSUR</li>
+      </ul>
+    </section>
 
     <section id="publications">
       <h2>Publications</h2>
       <div id="paper-list">
         <!-- Papers grouped by year will be inserted here -->
-      <h3>2026</h3><ul><li style="margin-bottom: 8px;">
+      <h3>2026</h3><ul><li>
             <strong>[FAST'26]</strong> 
-            <a href="https://www.usenix.org/conference/fast26/" target="_blank">Cost-efficient Archive Cloud Storage with Tape: Design and Deployment</a><br>
+            <a href="https://www.usenix.org/conference/fast26/" target="_blank" rel="noopener noreferrer">Cost-efficient Archive Cloud Storage with Tape: Design and Deployment</a><br>
             <span class="authors"><span class="highlight">Qing Wang*</span>, Fan Yang*, Qiang Liu, Geng Xiao, Yongpeng Chen, Hao Lan, Leiming Chen, Bangzhu Chen, Chenrui Liu, Pingchang Bai, Bin Huang, Zigan Luo, Mingyu Xie, Yu Wang, Youyou Lu, Huatao Wu, Jiwu Shu</span><br>
-            <span class="venue-full">The 24th USENIX Conference on File and Storage Technologies, 2026</span>
+            <span class="venue-full">The 24th USENIX Conference on File and Storage Technologies, 2026 (<span class="award-inline">Best Paper Award Candidate</span>)</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[ICDE'26]</strong> 
-            <a href="" target="_blank">Switch∆: Asynchronous Metadata Updating for Distributed Storage with In-Network Data Visibility</a><br>
+            <a href="#" target="_blank" rel="noopener noreferrer">Switch∆: Asynchronous Metadata Updating for Distributed Storage with In-Network Data Visibility</a><br>
             <span class="authors">Junru Li, <span class="highlight">Qing Wang</span>, Zhe Yang, Shuo Liu, Jiwu Shu, Youyou Lu</span><br>
             <span class="venue-full">The 42nd IEEE International Conference on Data Engineering, 2026</span>
             
-          </li></ul><h3>2025</h3><ul><li style="margin-bottom: 8px;">
+          </li></ul><h3>2025</h3><ul><li>
             <strong>[NSDI'25]</strong> 
-            <a href="https://www.usenix.org/conference/nsdi25/presentation/wang-qing" target="_blank">Achieving Wire-Latency Storage Systems by Exploiting Hardware ACKs</a><br>
+            <a href="https://www.usenix.org/conference/nsdi25/presentation/wang-qing" target="_blank" rel="noopener noreferrer">Achieving Wire-Latency Storage Systems by Exploiting Hardware ACKs</a><br>
             <span class="authors"><span class="highlight">Qing Wang</span>, Jiwu Shu, Jing Wang, Yuhao Zhang</span><br>
             <span class="venue-full">The 22nd USENIX Symposium on Networked Systems Design and Implementation, 2025</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[CACM]</strong> 
-            <a href="https://cacm.acm.org/research-highlights/designing-an-efficient-tree-index-on-disaggregated-memory/" target="_blank">Designing an Efficient Tree Index on Disaggregated Memory</a> <a href="https://github.com/thustorage/Sherman" target="_blank" class="bule-tag">[Code]</a><br>
+            <a href="https://cacm.acm.org/research-highlights/designing-an-efficient-tree-index-on-disaggregated-memory/" target="_blank" rel="noopener noreferrer">Designing an Efficient Tree Index on Disaggregated Memory</a> <a href="https://github.com/thustorage/Sherman" target="_blank" rel="noopener noreferrer" class="bule-tag">[Code]</a><br>
             <span class="authors"><span class="highlight">Qing Wang</span>, Youyou Lu, Jiwu Shu</span><br>
             <span class="venue-full">Communications of the ACM, 2025 (<span class="award-inline">Research Highlight</span>)</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[SoCC'25]</strong> 
-            <a href="undefined" target="_blank">Accelerating Distributed Filesystem Metadata Service via Decoupling Directory Semantics from Metadata Indexing</a><br>
+            <a href="#" target="_blank" rel="noopener noreferrer">Accelerating Distributed Filesystem Metadata Service via Decoupling Directory Semantics from Metadata Indexing</a><br>
             <span class="authors">Wenhao Lv, Hao Guo, <span class="highlight">Qing Wang</span>, Youyou Lu, Jiwu Shu</span><br>
             <span class="venue-full">ACM Symposium on Cloud Computing, 2025</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[USENIX ATC'25]</strong> 
-            <a href="https://www.usenix.org/conference/atc25/presentation/gao" target="_blank">Weaver: Efficient Multi-LLM Serving with Attention Offloading</a><br>
+            <a href="https://www.usenix.org/conference/atc25/presentation/gao" target="_blank" rel="noopener noreferrer">Weaver: Efficient Multi-LLM Serving with Attention Offloading</a><br>
             <span class="authors">Shiwei Gao, <span class="highlight">Qing Wang</span>, Shaoxun Zeng, Youyou Lu, Jiwu Shu</span><br>
             <span class="venue-full">USENIX Annual Technical Conference, 2025</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[FAST'25]</strong> 
-            <a href="https://www.usenix.org/conference/fast25/presentation/gao" target="_blank">ShiftLock: Mitigate One-sided RDMA Lock Contention via Handover</a> <a href="https://github.com/thustorage/shiftlock" target="_blank" class="bule-tag">[Code]</a><br>
+            <a href="https://www.usenix.org/conference/fast25/presentation/gao" target="_blank" rel="noopener noreferrer">ShiftLock: Mitigate One-sided RDMA Lock Contention via Handover</a> <a href="https://github.com/thustorage/shiftlock" target="_blank" rel="noopener noreferrer" class="bule-tag">[Code]</a><br>
             <span class="authors">Jian Gao, <span class="highlight">Qing Wang</span>, Jiwu Shu</span><br>
             <span class="venue-full">The 23rd USENIX Conference on File and Storage Technologies, 2025 (<span class="award-inline">Distinguished Artifact Award</span>)</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[EuroSys'25]</strong> 
-            <a href="https://dl.acm.org/doi/10.1145/3689031.3696062" target="_blank">Deft: A Scalable Tree Index for Disaggregated Memory</a> <a href="https://github.com/thustorage/deft" target="_blank" class="bule-tag">[Code]</a><br>
+            <a href="https://dl.acm.org/doi/10.1145/3689031.3696062" target="_blank" rel="noopener noreferrer">Deft: A Scalable Tree Index for Disaggregated Memory</a> <a href="https://github.com/thustorage/deft" target="_blank" rel="noopener noreferrer" class="bule-tag">[Code]</a><br>
             <span class="authors">Jing Wang, <span class="highlight">Qing Wang</span>, Yuhao Zhang, Jiwu Shu</span><br>
             <span class="venue-full">The 20th European Conference on Computer Systems, 2025</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[TOS]</strong> 
-            <a href="https://dl.acm.org/doi/10.1145/3700772" target="_blank">Efficiently Enlarging RDMA-Attached Memory with SSD</a> <a href="https://github.com/thustorage/TeRM" target="_blank" class="bule-tag">[Code]</a><br>
+            <a href="https://dl.acm.org/doi/10.1145/3700772" target="_blank" rel="noopener noreferrer">Efficiently Enlarging RDMA-Attached Memory with SSD</a> <a href="https://github.com/thustorage/TeRM" target="_blank" rel="noopener noreferrer" class="bule-tag">[Code]</a><br>
             <span class="authors">Zhe Yang, <span class="highlight">Qing Wang</span>, Xiaojian Liao, Youyou Lu, Keji Huang, Jiwu Shu</span><br>
             <span class="venue-full">ACM Transactions on Storage, 2025 (<span class="award-inline">Fast-tracked</span>)</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[TC]</strong> 
-            <a href="https://doi.org/10.1109/TC.2025.3605763" target="_blank">StageWise: Accelerating Persistent Key-Value Stores by Thread Model Redesigning</a><br>
+            <a href="https://doi.org/10.1109/TC.2025.3605763" target="_blank" rel="noopener noreferrer">StageWise: Accelerating Persistent Key-Value Stores by Thread Model Redesigning</a><br>
             <span class="authors">Zeqi Li, Youmin Chen, <span class="highlight">Qing Wang</span>, Youyou Lu, Jiwu Shu</span><br>
             <span class="venue-full">IEEE Transactions on Computers, 2025</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[HotStorage'25]</strong> 
-            <a href="null" target="_blank">CableCache: In-Network Request Deduplication for Key-Value Stores</a><br>
+            <a href="#" target="_blank" rel="noopener noreferrer">CableCache: In-Network Request Deduplication for Key-Value Stores</a><br>
             <span class="authors">Jiawei Huang, Junru Li, <span class="highlight">Qing Wang</span>, Lijie Wen, Youyou Lu, Erci Xu</span><br>
             <span class="venue-full">The 17th ACM Workshop on Hot Topics in Storage and File Systems, 2025</span>
             
-          </li></ul><h3>2024</h3><ul><li style="margin-bottom: 8px;">
+          </li></ul><h3>2024</h3><ul><li>
             <strong>[FAST'24]</strong> 
-            <a href="https://www.usenix.org/conference/fast24" target="_blank">TeRM: Extending RDMA-Attached Memory with SSD</a> <a href="https://github.com/thustorage/TeRM" target="_blank" class="bule-tag">[Code]</a><br>
+            <a href="https://www.usenix.org/conference/fast24" target="_blank" rel="noopener noreferrer">TeRM: Extending RDMA-Attached Memory with SSD</a> <a href="https://github.com/thustorage/TeRM" target="_blank" rel="noopener noreferrer" class="bule-tag">[Code]</a><br>
             <span class="authors">Zhe Yang, <span class="highlight">Qing Wang</span>, Xiaojian Liao, Youyou Lu, Keji Huang, Jiwu Shu</span><br>
             <span class="venue-full">The 22nd USENIX Conference on File and Storage Technologies, 2024</span>
             <br><span class="award">Invited for fast-tracked publication in ACM Transactions on Storage</span>
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[TOS]</strong> 
-            <a href="https://dl.acm.org/doi/10.1145/3633285" target="_blank">Perseid: A Secondary Indexing Mechanism for LSM-based Storage Systems</a> <a href="https://github.com/thustorage/perseid" target="_blank" class="bule-tag">[Code]</a><br>
+            <a href="https://dl.acm.org/doi/10.1145/3633285" target="_blank" rel="noopener noreferrer">Perseid: A Secondary Indexing Mechanism for LSM-based Storage Systems</a> <a href="https://github.com/thustorage/perseid" target="_blank" rel="noopener noreferrer" class="bule-tag">[Code]</a><br>
             <span class="authors">Jing Wang, Youyou Lu, <span class="highlight">Qing Wang</span>, Yuhao Zhang, Jiwu Shu</span><br>
             <span class="venue-full">ACM Transactions on Storage, 2024 (<span class="award-inline">Fast-tracked</span>)</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             
-            <a href="undefined" target="_blank">Challenges and Technical Development of Large Model Training Storage Systems</a><br>
+            <a href="#" target="_blank" rel="noopener noreferrer">Challenges and Technical Development of Large Model Training Storage Systems</a><br>
             <span class="authors">Yangyang Feng, <span class="highlight">Qing Wang</span>, Minhui Xie, Jiwu Shu</span><br>
             <span class="venue-full">Journal of Computer Research and Development (in Chinese), 2024</span>
             
-          </li></ul><h3>2023</h3><ul><li style="margin-bottom: 8px;">
+          </li></ul><h3>2023</h3><ul><li>
             <strong>[OSDI'23]</strong> 
-            <a href="https://www.usenix.org/conference/osdi23/presentation/wang-qing" target="_blank">Replicating Persistent Memory Key-Value Stores with Efficient RDMA Abstraction</a> <a href="https://github.com/thustorage/rowan" target="_blank" class="bule-tag">[Code]</a><br>
+            <a href="https://www.usenix.org/conference/osdi23/presentation/wang-qing" target="_blank" rel="noopener noreferrer">Replicating Persistent Memory Key-Value Stores with Efficient RDMA Abstraction</a> <a href="https://github.com/thustorage/rowan" target="_blank" rel="noopener noreferrer" class="bule-tag">[Code]</a><br>
             <span class="authors"><span class="highlight">Qing Wang</span>, Youyou Lu, Jing Wang, Jiwu Shu</span><br>
             <span class="venue-full">The 17th USENIX Symposium on Operating Systems Design and Implementation, 2023</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[SIGMOD Record]</strong> 
-            <a href="https://sigmodrecord.org/2023/04/29/building-write-optimized-tree-indexes-on-disaggregated-memory/" target="_blank">Building Write-Optimized Tree Indexes on Disaggregated Memory</a> <a href="https://github.com/thustorage/Sherman" target="_blank" class="bule-tag">[Code]</a><br>
+            <a href="https://sigmodrecord.org/2023/04/29/building-write-optimized-tree-indexes-on-disaggregated-memory/" target="_blank" rel="noopener noreferrer">Building Write-Optimized Tree Indexes on Disaggregated Memory</a> <a href="https://github.com/thustorage/Sherman" target="_blank" rel="noopener noreferrer" class="bule-tag">[Code]</a><br>
             <span class="authors"><span class="highlight">Qing Wang</span>, Youyou Lu, Jiwu Shu</span><br>
             <span class="venue-full">SIGMOD Record, March 2023 (Vol. 52, No. 1), 2023 (<span class="award-inline">Invited</span>)</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[USENIX ATC'23]</strong> 
-            <a href="https://www.usenix.org/conference/atc23/presentation/wang-jing" target="_blank">Revisiting Secondary Indexing in LSM-based Storage Systems with Persistent Memory</a> <a href="https://github.com/thustorage/perseid" target="_blank" class="bule-tag">[Code]</a><br>
+            <a href="https://www.usenix.org/conference/atc23/presentation/wang-jing" target="_blank" rel="noopener noreferrer">Revisiting Secondary Indexing in LSM-based Storage Systems with Persistent Memory</a> <a href="https://github.com/thustorage/perseid" target="_blank" rel="noopener noreferrer" class="bule-tag">[Code]</a><br>
             <span class="authors">Jing Wang, Youyou Lu, <span class="highlight">Qing Wang</span>, Yuhao Zhang, Jiwu Shu</span><br>
             <span class="venue-full">USENIX Annual Technical Conference, 2023</span>
             <br><span class="award">Invited for fast-tracked publication in ACM Transactions on Storage</span>
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[FAST'23]</strong> 
-            <a href="https://www.usenix.org/conference/fast23/presentation/yan" target="_blank">Patronus: High-Performance and Protective Remote Memory</a> <a href="https://github.com/YanB25/Patronus" target="_blank" class="bule-tag">[Code]</a><br>
+            <a href="https://www.usenix.org/conference/fast23/presentation/yan" target="_blank" rel="noopener noreferrer">Patronus: High-Performance and Protective Remote Memory</a> <a href="https://github.com/YanB25/Patronus" target="_blank" rel="noopener noreferrer" class="bule-tag">[Code]</a><br>
             <span class="authors">Bin Yan, Youyou Lu, <span class="highlight">Qing Wang</span>, Minhui Xie, Jiwu Shu</span><br>
             <span class="venue-full">The 21st USENIX Conference on File and Storage Technologies, 2023</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[FAST'23]</strong> 
-            <a href="https://www.usenix.org/conference/fast23/presentation/gao" target="_blank">Citron: Distributed Range Lock Management with One-sided RDMA</a><br>
+            <a href="https://www.usenix.org/conference/fast23/presentation/gao" target="_blank" rel="noopener noreferrer">Citron: Distributed Range Lock Management with One-sided RDMA</a><br>
             <span class="authors">Jian Gao, Youyou Lu, Minhui Xie, <span class="highlight">Qing Wang</span>, Jiwu Shu</span><br>
             <span class="venue-full">The 21st USENIX Conference on File and Storage Technologies, 2023</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[VLDB'23]</strong> 
-            <a href="https://www.vldb.org/pvldb/vol16/p1013-xie.pdf" target="_blank">PetPS: Supporting Huge Embedding Models with Persistent Memory</a> <a href="https://github.com/thustorage/PetPS" target="_blank" class="bule-tag">[Code]</a><br>
+            <a href="https://www.vldb.org/pvldb/vol16/p1013-xie.pdf" target="_blank" rel="noopener noreferrer">PetPS: Supporting Huge Embedding Models with Persistent Memory</a> <a href="https://github.com/thustorage/PetPS" target="_blank" rel="noopener noreferrer" class="bule-tag">[Code]</a><br>
             <span class="authors">Minhui Xie, Youyou Lu, <span class="highlight">Qing Wang</span>, Yangyang Feng, Jiaqiang Liu, Kai Ren, Jiwu Shu</span><br>
             <span class="venue-full">The 49th International Conference on Very Large Data Bases, 2023</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             
-            <a href="null" target="_blank">Survey on In-Network Storage Systems</a><br>
+            <a href="#" target="_blank" rel="noopener noreferrer">Survey on In-Network Storage Systems</a><br>
             <span class="authors"><span class="highlight">Qing Wang</span>, Junru Li, Jiwu Shu</span><br>
             <span class="venue-full">Journal of Computer Research and Delevopment (in Chinese), 2023</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             
-            <a href="https://storage.cs.tsinghua.edu.cn/publications/分离式数据中心的存储系统研究进展.pdf" target="_blank">Progress on Storage Systems for Disaggregated Data Centers</a><br>
+            <a href="https://storage.cs.tsinghua.edu.cn/publications/分离式数据中心的存储系统研究进展.pdf" target="_blank" rel="noopener noreferrer">Progress on Storage Systems for Disaggregated Data Centers</a><br>
             <span class="authors">Jiwu Shu, Youmin Chen, <span class="highlight">Qing Wang</span>, Jing Wang, Junru Li, Xiaojian Liao</span><br>
             <span class="venue-full">SCIENTIA SINICA Informationis (in Chinese), 2023</span>
             
-          </li></ul><h3>2022</h3><ul><li style="margin-bottom: 8px;">
+          </li></ul><h3>2022</h3><ul><li>
             <strong>[SIGMOD'22]</strong> 
-            <a href="https://dl.acm.org/doi/10.1145/3514221.3517824" target="_blank">Sherman: A Write-Optimized Distributed B+Tree Index on Disaggregated Memory</a> <a href="https://github.com/thustorage/Sherman" target="_blank" class="bule-tag">[Code]</a><br>
+            <a href="https://dl.acm.org/doi/10.1145/3514221.3517824" target="_blank" rel="noopener noreferrer">Sherman: A Write-Optimized Distributed B+Tree Index on Disaggregated Memory</a> <a href="https://github.com/thustorage/Sherman" target="_blank" rel="noopener noreferrer" class="bule-tag">[Code]</a><br>
             <span class="authors"><span class="highlight">Qing Wang</span>, Youyou Lu, Jiwu Shu</span><br>
             <span class="venue-full">ACM SIGMOD International Conference on Management of Data, 2022</span>
             <br><span class="award">2023 ACM SIGMOD Research Highlight Award,  CACM Research Highlight</span>
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[TOS]</strong> 
-            <a href="https://dl.acm.org/doi/10.1145/3507922" target="_blank">Nap: Persistent Memory Indexes for NUMA Architectures</a> <a href="https://github.com/thustorage/osdi21ae" target="_blank" class="bule-tag">[Code]</a><br>
+            <a href="https://dl.acm.org/doi/10.1145/3507922" target="_blank" rel="noopener noreferrer">Nap: Persistent Memory Indexes for NUMA Architectures</a> <a href="https://github.com/thustorage/osdi21ae" target="_blank" rel="noopener noreferrer" class="bule-tag">[Code]</a><br>
             <span class="authors"><span class="highlight">Qing Wang</span>, Youyou Lu, Junru Li, Minhui Xie, Jiwu Shu</span><br>
             <span class="venue-full">ACM Transactions on Storage, 2022 (<span class="award-inline">Fast tracked</span>)</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[USENIX ATC'22]</strong> 
-            <a href="https://www.usenix.org/conference/atc22/presentation/li-junru" target="_blank">AlNiCo: SmartNIC-accelerated Contention-aware Request Scheduling for Transaction Processing</a><br>
+            <a href="https://www.usenix.org/conference/atc22/presentation/li-junru" target="_blank" rel="noopener noreferrer">AlNiCo: SmartNIC-accelerated Contention-aware Request Scheduling for Transaction Processing</a><br>
             <span class="authors">Junru Li, Youyou Lu, <span class="highlight">Qing Wang</span>, Jiazhen Lin, Zhe Yang, Jiwu Shu</span><br>
             <span class="venue-full">USENIX Annual Technical Conference, 2022</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[USENIX ATC'22]</strong> 
-            <a href="https://www.usenix.org/conference/atc22/presentation/wang-jing" target="_blank">Pacman: An Efficient Compaction Approach for Log-Structured Key-Value Store on Persistent Memory</a> <a href="https://github.com/thustorage/pacman" target="_blank" class="bule-tag">[Code]</a><br>
+            <a href="https://www.usenix.org/conference/atc22/presentation/wang-jing" target="_blank" rel="noopener noreferrer">Pacman: An Efficient Compaction Approach for Log-Structured Key-Value Store on Persistent Memory</a> <a href="https://github.com/thustorage/pacman" target="_blank" rel="noopener noreferrer" class="bule-tag">[Code]</a><br>
             <span class="authors">Jing Wang, Youyou Lu, <span class="highlight">Qing Wang</span>, Minhui Xie, Keji Huang, Jiwu Shu</span><br>
             <span class="venue-full">USENIX Annual Technical Conference, 2022</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[EuroSys'22]</strong> 
-            <a href="https://dl.acm.org/doi/10.1145/3492321.3519554" target="_blank">Fleche: An Efficient GPU Embedding Cache for Personalized Recommendations</a><br>
+            <a href="https://dl.acm.org/doi/10.1145/3492321.3519554" target="_blank" rel="noopener noreferrer">Fleche: An Efficient GPU Embedding Cache for Personalized Recommendations</a><br>
             <span class="authors">Minhui Xie, Youyou Lu, Jiazhen Lin, <span class="highlight">Qing Wang</span>, Jian Gao, Kai Ren, Jiwu Shu</span><br>
             <span class="venue-full">The 17th European Conference on Computer Systems, 2022</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[VLDB'22]</strong> 
-            <a href="https://vldb.org/pvldb/vol15/p2881-li.pdf" target="_blank">SwitchTx: Scalable In-Network Coordination for Distributed Transaction Processing</a><br>
+            <a href="https://vldb.org/pvldb/vol15/p2881-li.pdf" target="_blank" rel="noopener noreferrer">SwitchTx: Scalable In-Network Coordination for Distributed Transaction Processing</a><br>
             <span class="authors">Junru Li, Youyou Lu, Yiming Zhang, <span class="highlight">Qing Wang</span>, Zhuo Cheng, Keji Huang, Jiwu Shu</span><br>
             <span class="venue-full">The 48th International Conference on Very Large Data Bases, 2022</span>
             
-          </li></ul><h3>2021</h3><ul><li style="margin-bottom: 8px;">
+          </li></ul><h3>2021</h3><ul><li>
             <strong>[OSDI'21]</strong> 
-            <a href="https://www.usenix.org/conference/osdi21/presentation/wang-qing" target="_blank">Nap: A Black-Box Approach to NUMA-Aware Persistent Memory Indexes</a> <a href="https://github.com/thustorage/osdi21ae" target="_blank" class="bule-tag">[Code]</a><br>
+            <a href="https://www.usenix.org/conference/osdi21/presentation/wang-qing" target="_blank" rel="noopener noreferrer">Nap: A Black-Box Approach to NUMA-Aware Persistent Memory Indexes</a> <a href="https://github.com/thustorage/osdi21ae" target="_blank" rel="noopener noreferrer" class="bule-tag">[Code]</a><br>
             <span class="authors"><span class="highlight">Qing Wang</span>, Youyou Lu, Junru Li, Jiwu Shu</span><br>
             <span class="venue-full">The 15th USENIX Symposium on Operating Systems Design and Implementation, 2021</span>
             <br><span class="award">Invited for fast-tracked publication in ACM Transactions on Storage</span>
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[FAST'21]</strong> 
-            <a href="https://www.usenix.org/conference/fast21/presentation/wang" target="_blank">Concordia: Distributed Shared Memory with In-Network Cache Coherence</a><br>
+            <a href="https://www.usenix.org/conference/fast21/presentation/wang" target="_blank" rel="noopener noreferrer">Concordia: Distributed Shared Memory with In-Network Cache Coherence</a><br>
             <span class="authors"><span class="highlight">Qing Wang</span>, Youyou Lu, Erci Xu, Junru Li, Youmin Chen, Jiwu Shu</span><br>
             <span class="venue-full">USENIX Conference on File and Storage Technologies, 2021</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[TOS]</strong> 
-            <a href="https://dl.acm.org/doi/10.1145/3448418" target="_blank">Octopus+: an RDMA-enabled Distributed Persistent Memory File System</a><br>
+            <a href="https://dl.acm.org/doi/10.1145/3448418" target="_blank" rel="noopener noreferrer">Octopus+: an RDMA-enabled Distributed Persistent Memory File System</a><br>
             <span class="authors">Bohong Zhu, Youmin Chen, <span class="highlight">Qing Wang</span>, Youyou Lu, Jiwu Shu</span><br>
             <span class="venue-full">ACM Transactions on Storage, 2021</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[ICDE'21]</strong> 
-            <a href="https://ieeexplore.ieee.org/document/9458662/" target="_blank">Aria: Tolerating Skewed Workloads in Secure In-memory Key-value Stores</a><br>
+            <a href="https://ieeexplore.ieee.org/document/9458662/" target="_blank" rel="noopener noreferrer">Aria: Tolerating Skewed Workloads in Secure In-memory Key-value Stores</a><br>
             <span class="authors">Fan Yang, Youmin Chen, Youyou Lu, <span class="highlight">Qing Wang</span>, Jiwu Shu</span><br>
             <span class="venue-full">37th IEEE International Conference on Data Engineering, 2021</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             
-            <a href="https://crad.ict.ac.cn/en/article/doi/10.7544/issn1000-1239.2021.20200381" target="_blank">A Multicore-Friendly Persistent Memory Key-Value Store</a><br>
+            <a href="https://crad.ict.ac.cn/en/article/doi/10.7544/issn1000-1239.2021.20200381" target="_blank" rel="noopener noreferrer">A Multicore-Friendly Persistent Memory Key-Value Store</a><br>
             <span class="authors"><span class="highlight">Qing Wang</span>, Bohong Zhu, Jiwu Shu</span><br>
             <span class="venue-full">Journal of Computer Research and Delevopment (in Chinese), 2021</span>
             
-          </li></ul><h3>2020</h3><ul><li style="margin-bottom: 8px;">
+          </li></ul><h3>2020</h3><ul><li>
             <strong>[DAC'20]</strong> 
-            <a href="https://ieeexplore.ieee.org/document/9218554" target="_blank">Improving the Concurrency Performance of Persistent Memory Transactions on Multicores</a><br>
+            <a href="https://ieeexplore.ieee.org/document/9218554" target="_blank" rel="noopener noreferrer">Improving the Concurrency Performance of Persistent Memory Transactions on Multicores</a><br>
             <span class="authors"><span class="highlight">Qing Wang</span>, Youyou Lu, Zhongjie Wu, Fan Yang, Jiwu Shu</span><br>
             <span class="venue-full">Design Automation Conference, 2020</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[ASPLOS'20]</strong> 
-            <a href="https://dl.acm.org/doi/10.1145/3373376.3378515" target="_blank">FlatStore: an Efficient Log-Structured Key-Value Storage Engine for Persistent Memory</a><br>
+            <a href="https://dl.acm.org/doi/10.1145/3373376.3378515" target="_blank" rel="noopener noreferrer">FlatStore: an Efficient Log-Structured Key-Value Storage Engine for Persistent Memory</a><br>
             <span class="authors">Youmin Chen, Youyou Lu, Fan Yang, <span class="highlight">Qing Wang</span>, Yang Wang, Jiwu Shu</span><br>
             <span class="venue-full">Proceedings of the 25th International Conference on Architectural Support for Programming Languages and Operating Systems, 2020</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[VLDB'20]</strong> 
-            <a href="https://dl.acm.org/doi/10.14778/3407790.3407850" target="_blank">μTree: a Persistent B+-Tree with Low Tail Latency</a><br>
+            <a href="https://dl.acm.org/doi/10.14778/3407790.3407850" target="_blank" rel="noopener noreferrer">μTree: a Persistent B+-Tree with Low Tail Latency</a><br>
             <span class="authors">Youmin Chen, Youyou Lu, Kedong Fang, <span class="highlight">Qing Wang</span>, Jiwu Shu</span><br>
             <span class="venue-full">46th International Conference on Very Large Data Bases, 2020</span>
             
-          </li><li style="margin-bottom: 8px;">
+          </li><li>
             <strong>[TOS]</strong> 
-            <a href="https://dl.acm.org/doi/10.1145/3412852" target="_blank">TH-DPMS: Design and Implementation of an RDMA-enabled Distributed Persistent Memory Storage System</a><br>
+            <a href="https://dl.acm.org/doi/10.1145/3412852" target="_blank" rel="noopener noreferrer">TH-DPMS: Design and Implementation of an RDMA-enabled Distributed Persistent Memory Storage System</a><br>
             <span class="authors">Jiwu Shu, Youmin Chen, <span class="highlight">Qing Wang</span>, Bohong Zhu, Junru Li, Youyou Lu</span><br>
             <span class="venue-full">ACM Transactions on Storage, 2020</span>
             
           </li></ul></div>
     </section>
 
-    <section id="research">
+    <section id="awards">
       <h2>Selected Awards</h2>
       <ul>
+        <li>Best Paper Award Candidate, USENIX FAST 2026</li>
         <li>Distinguished Artifact Award, USENIX FAST 2025</li>
         <li>CACM Research Highlight, 2025</li>
         <li>ACM SIGMOD Research Highlight Award, 2023</li>
@@ -321,11 +367,10 @@
   </main>
 
   <footer>
-    <p>© 2025 Qing Wang. Hosted on GitHub Pages.</p>
+    <p>© 2026 Qing Wang. Hosted on GitHub Pages.</p>
   </footer>
+  </div>
 
-
-
-<a href="https://clustrmaps.com/site/1bf7f" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=ffffff&amp;w=70&amp;t=n&amp;d=5d4Hb7bouyA-GKIIr2jc4hjqvXWkMD-2kiiFJrlUkPQ" width="0"></a>
+  <a href="https://clustrmaps.com/site/1bf7f" title="Visit tracker" aria-hidden="true"><img src="//clustrmaps.com/map_v2.png?cl=ffffff&amp;w=70&amp;t=n&amp;d=5d4Hb7bouyA-GKIIr2jc4hjqvXWkMD-2kiiFJrlUkPQ" width="0" height="0" alt=""></a>
 
 </body></html>

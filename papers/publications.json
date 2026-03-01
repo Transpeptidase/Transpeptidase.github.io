@@ -23,7 +23,8 @@
     "venue": "The 24th USENIX Conference on File and Storage Technologies",
     "short": "FAST'26",
     "year": 2026,
-    "link": "https://www.usenix.org/conference/fast26/"
+    "link": "https://www.usenix.org/conference/fast26/",
+    "award": "Best Paper Award Candidate"
   },
   {
     "title": "Switch∆: Asynchronous Metadata Updating for Distributed Storage with In-Network Data Visibility",

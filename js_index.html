@@ -3,13 +3,48 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Qing Wang | Systems</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>Qing Wang | Associate Professor, Nanjing University | Systems Research</title>
+  <meta name="description" content="Qing Wang - Associate Professor at School of Computer Science, Nanjing University. Research in storage systems, memory systems, and networked systems. Publications at OSDI, FAST, NSDI, EuroSys, SIGMOD." />
+  <meta name="keywords" content="Qing Wang, Nanjing University, computer systems, storage systems, memory systems, distributed systems, OSDI, FAST, NSDI" />
+  <meta name="author" content="Qing Wang" />
+  <link rel="canonical" href="https://wangqing.io/" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://wangqing.io/" />
+  <meta property="og:title" content="Qing Wang | Systems Research" />
+  <meta property="og:description" content="Associate Professor at Nanjing University. Research in storage/memory systems and networked systems." />
+  <meta property="og:locale" content="en_US" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Qing Wang | Systems Research" />
+  <meta name="twitter:description" content="Associate Professor at Nanjing University. Research in storage/memory and networked systems." />
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Qing Wang",
+    "jobTitle": "Associate Professor",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Nanjing University",
+      "url": "https://www.nju.edu.cn"
+    },
+    "url": "https://wangqing.io",
+    "sameAs": [
+      "https://scholar.google.com.hk/citations?user=H3vNc-EAAAAJ",
+      "https://dblp.org/pid/97/6505-31.html"
+    ],
+    "knowsAbout": ["computer systems", "storage systems", "memory systems", "distributed systems", "networked systems"]
+  }
+  </script>
 </head>
 
 <body>
+  <div class="page-wrap">
   <header class="header-flex">
     <img src="assets/wq.jpg" alt="Profile picture" class="avatar-rect">
     <div class="info">
@@ -18,10 +53,8 @@
       <p>School of Computer Science, Nanjing University.</p>
       <p>Email: wangqing.cs at nju dot edu dot cn</p>
       <p>
-        <a href="https://scholar.google.com.hk/citations?user=H3vNc-EAAAAJ" target="_blank" title="Google Scholar"
-          class="bule-tag">
-          Google Scholar</a> |
-        <a href="https://dblp.org/pid/97/6505-31.html" target="_blank" title="DBLP" class="bule-tag"> DBLP</a>
+        <a href="https://scholar.google.com.hk/citations?user=H3vNc-EAAAAJ" target="_blank" rel="noopener noreferrer" title="Google Scholar" class="bule-tag">Google Scholar</a> |
+        <a href="https://dblp.org/pid/97/6505-31.html" target="_blank" rel="noopener noreferrer" title="DBLP" class="bule-tag">DBLP</a>
       </p>
     </div>
   </header>
@@ -35,7 +68,7 @@
         Researcher at Tsinghua University.
       </p>
 
-      <p><strong style="color:#1f77b4">Prospective students:</strong>
+      <p><strong class="accent">Prospective students:</strong>
         We are seeking highly motivated PhD students, Master’s students, and interns. If you're passionate about system
         research and interested in working with me, please feel free to reach out via email.</p>
 
@@ -44,19 +77,18 @@
     <section id="research">
       <h2>Research</h2>
 
-      <p style="margin-bottom: 0;">My research focuses on computer systems, particularly <strong>storage/memory systems</strong> and
-        <strong>networked systems</strong>.
-        <br> The research topics I am currently interested in include:
-         <ul style="margin-top: 0;">
-        <li> Distributed systems with memory-semantic interconnects</li>
-        <li> System support for petabyte-scale memory</li>
-        <li> Data management for Agentic AI</li>
-        <li> Sustainable cloud storage</li>
-        </ul>
-      </p>
+      <p>My research focuses on computer systems, particularly <strong>storage/memory systems</strong> and
+        <strong>networked systems</strong>.<br>
+        The research topics I am currently interested in include:</p>
+      <ul>
+        <li>Distributed systems with memory-semantic interconnects</li>
+        <li>System support for petabyte-scale memory</li>
+        <li>Data management for Agentic AI</li>
+        <li>Sustainable cloud storage</li>
+      </ul>
 
-      <p style="margin-bottom: 0;"> Here are some of my representative research projects:
-      <ul style="margin-top: 0;">
+      <p>Here are some of my representative research projects:</p>
+      <ul>
         <li>
           <strong>Network-Accelerated Distributed Systems</strong>
           <ul>
@@ -75,13 +107,25 @@
             <li>Persistent memory systems <span class="bule-tag">(OSDI'21, USENIX ATC'22/ATC'23)</span></li>
             <li>SSD-extended remote memory <span class="bule-tag">(FAST'24)</span></li>
             <li>Protective remote memory <span class="bule-tag">(FAST'23)</span></li>
-
           </ul>
         </li>
       </ul>
-      </p>
     </section>
 
+
+    <section id="services">
+      <h2>Services</h2>
+      <p class="service-label"><strong>Program Committee:</strong></p>
+      <ul class="service-list">
+        <li>USENIX Conference on File and Storage Technologies (FAST 2027)</li>
+        <li>SIGOPS Annual Technical Conference (ATC 2026)</li>
+        <li>European Conference on Computer Systems (EuroSys (fall) 2026)</li>
+      </ul>
+      <p class="service-label"><strong>Journal Reviewing:</strong></p>
+      <ul class="service-list">
+        <li>TOS, TACO, CSUR</li>
+      </ul>
+    </section>
 
     <section id="publications">
       <h2>Publications</h2>
@@ -90,9 +134,10 @@
       </div>
     </section>
 
-    <section id="research">
+    <section id="awards">
       <h2>Selected Awards</h2>
       <ul>
+        <li>Best Paper Award Candidate, USENIX FAST 2026</li>
         <li>Distinguished Artifact Award, USENIX FAST 2025</li>
         <li>CACM Research Highlight, 2025</li>
         <li>ACM SIGMOD Research Highlight Award, 2023</li>
@@ -103,13 +148,11 @@
   </main>
 
   <footer>
-    <p>© 2025 Qing Wang. Hosted on GitHub Pages.</p>
+    <p>© 2026 Qing Wang. Hosted on GitHub Pages.</p>
   </footer>
+  </div>
 
   <script src="script.js"></script>
+  <a href="https://clustrmaps.com/site/1bf7f" title="Visit tracker" aria-hidden="true"><img src="//clustrmaps.com/map_v2.png?cl=ffffff&amp;w=70&amp;t=n&amp;d=5d4Hb7bouyA-GKIIr2jc4hjqvXWkMD-2kiiFJrlUkPQ" width="0" height="0" alt="" /></a>
 </body>
-
-<a href='https://clustrmaps.com/site/1bf7f' title='Visit tracker'><img
-    src='//clustrmaps.com/map_v2.png?cl=ffffff&w=70&t=n&d=5d4Hb7bouyA-GKIIr2jc4hjqvXWkMD-2kiiFJrlUkPQ' width='0' /></a>
-
 </html>

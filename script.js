@@ -21,14 +21,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const ul = document.createElement('ul');
         grouped[year].forEach(paper => {
           const item = document.createElement('li');
-          item.style.marginBottom = "8px";
 
           // 高亮所有包含 "Qing Wang" 的作者名（大小写敏感匹配子串）
           const highlightedAuthors = paper.authors.map(name =>
             name.includes("Qing Wang") ? `<span class="highlight">${name}</span>` : name
           ).join(", ");
 
-          const codeLink = paper.code ? ` <a href="${paper.code}" target="_blank" class="bule-tag">[Code]</a>` : "";
+          const codeLink = paper.code ? ` <a href="${paper.code}" target="_blank" rel="noopener noreferrer" class="bule-tag">[Code]</a>` : "";
 
           const max_inline_award_length = 30
           const awardInline = paper.award && paper.award.length < max_inline_award_length
@@ -41,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           item.innerHTML = `
             ${paper.short ? `<strong>[${paper.short}]</strong> ` : ""}
-            <a href="${paper.link}" target="_blank">${paper.title}</a>${codeLink}<br>
+            <a href="${paper.link || '#'}" target="_blank" rel="noopener noreferrer">${paper.title}</a>${codeLink}<br>
             <span class="authors">${highlightedAuthors}</span><br>
             <span class="venue-full">${paper.venue}, ${paper.year}${awardInline}</span>
             ${awardBlock}
