@@ -59,7 +59,7 @@ body {
   margin: 0 0 0.25rem 0;
   font-size: 1.625rem;
   font-weight: 600;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
 }
 
 @media (min-width: 768px) {
@@ -115,14 +115,13 @@ h2 {
   font-size: 1.25rem;
   font-weight: 600;
   color: #1a1a1a;
-  letter-spacing: -0.01em;
   border-bottom: 1px solid #e5e5e5;
 }
 
 @media (min-width: 768px) {
   h2 {
     font-size: 1.375rem;
-    margin-bottom: 1.25rem;
+    margin: 0 0 1.25rem 0;
   }
 }
 
@@ -167,9 +166,9 @@ li:last-child {
   margin-bottom: 0;
 }
 
-/* Research：贴近 git 原版，列表更紧 */
+/* Research：嵌套列表保持紧凑，但使用合理间距值 */
 #research p + ul {
-  margin-top: 0.15em;
+  margin-top: 0.3em;
 }
 #research p:has(+ ul) {
   margin-bottom: 0.35em;
@@ -178,20 +177,20 @@ li:last-child {
   margin-top: 1em;
 }
 #research ul {
-  margin-top: 0.15em;
-  margin-bottom: 0.25em;
+  margin-top: 0.3em;
+  margin-bottom: 0.5em;
   padding-left: 1.2rem;
 }
 #research > ul > li {
-  margin-bottom: 0.3em;
+  margin-bottom: 0.4em;
 }
 #research ul ul {
-  margin-top: 0.1em;
+  margin-top: 0.2em;
   margin-bottom: 0;
   padding-left: 1rem;
 }
 #research li li {
-  margin-bottom: 0.05em;
+  margin-bottom: 0.2em;
 }
 #research li li:last-child {
   margin-bottom: 0;
@@ -203,6 +202,7 @@ a {
   color: #1a1a1a;
   border-bottom: 1px solid transparent;
   transition: color 0.15s, border-color 0.15s;
+  padding: 0.1em 0;
 }
 
 a:hover {
@@ -215,12 +215,12 @@ a:focus-visible {
   outline-offset: 2px;
 }
 
-.bule-tag {
+.blue-tag {
   color: #0066cc;
   border-bottom-color: rgba(0, 102, 204, 0.3);
 }
 
-.bule-tag:hover {
+.blue-tag:hover {
   color: #004499;
   border-bottom-color: #004499;
 }
@@ -232,10 +232,13 @@ a:focus-visible {
 /* ===== Services 区块 ===== */
 #services .service-label {
   margin: 0 0 0.4em 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
-  font-weight: 400;
   color: #333;
+}
+
+/* 第二个及之后的分组标签，加顶部间距与前组分开 */
+#services .service-list + .service-label {
+  margin-top: 1.25rem;
 }
 
 @media (min-width: 768px) {
@@ -286,13 +289,14 @@ a:focus-visible {
 }
 
 .award-inline {
+  font-size: 0.875rem;
   color: #c41e3a;
   font-weight: 600;
   font-style: italic;
 }
 
 .award {
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   color: #c41e3a;
   font-weight: 600;
   font-style: italic;
@@ -303,16 +307,44 @@ a:focus-visible {
   color: #1a1a1a;
 }
 
+/* 论文条目：与正文行高一致，上下 padding 对称 */
 #paper-list li {
-  margin-bottom: 0.5rem;
-  line-height: 1.4;
-  padding-bottom: 0.5rem;
-  border-bottom: none;
+  margin-bottom: 0.25rem;
+  line-height: 1.6;
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+  border-top: 1px solid #f0f0f0;
+}
+
+#paper-list li:first-child {
+  border-top: none;
+  padding-top: 0;
 }
 
 #paper-list li:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+/* 年份分组标题 */
+#paper-list h3 {
+  margin: 2rem 0 0.25rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #888;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+#paper-list > h3:first-child {
+  margin-top: 0;
+}
+
+/* paper list 加载/错误状态 */
+.paper-list-loading,
+.paper-list-error {
+  color: #888;
+  font-style: italic;
 }
 
 /* ===== 页脚 ===== */
@@ -365,20 +397,13 @@ footer p {
     height: 120px;
   }
 
-  /* 触控友好：链接/可点击区域最小高度 */
-  a {
-    padding: 0.15em 0;
-    min-height: 1.5em;
-    display: inline-block;
-  }
-
   section {
     margin-bottom: 2rem;
   }
 
   #paper-list li {
-    margin-bottom: 0.6rem;
-    padding-bottom: 0.6rem;
+    margin-bottom: 0.25rem;
+    padding-bottom: 0.35rem;
   }
 }
 

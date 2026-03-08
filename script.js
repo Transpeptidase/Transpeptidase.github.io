@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       const container = document.getElementById('paper-list');
+      container.innerHTML = '';
       const sortedYears = Object.keys(grouped).sort((a, b) => parseInt(b) - parseInt(a));
 
       sortedYears.forEach(year => {
@@ -27,20 +28,24 @@ document.addEventListener('DOMContentLoaded', () => {
             name.includes("Qing Wang") ? `<span class="highlight">${name}</span>` : name
           ).join(", ");
 
-          const codeLink = paper.code ? ` <a href="${paper.code}" target="_blank" rel="noopener noreferrer" class="bule-tag">[Code]</a>` : "";
+          const codeLink = paper.code ? ` <a href="${paper.code}" target="_blank" rel="noopener noreferrer" class="blue-tag">[Code]</a>` : "";
 
-          const max_inline_award_length = 30
-          const awardInline = paper.award && paper.award.length < max_inline_award_length
+          const MAX_INLINE_AWARD = 30;
+          const awardInline = paper.award && paper.award.length < MAX_INLINE_AWARD
             ? ` (<span class="award-inline">${paper.award}</span>)`
             : "";
 
-          const awardBlock = paper.award && paper.award.length >= max_inline_award_length
+          const awardBlock = paper.award && paper.award.length >= MAX_INLINE_AWARD
             ? `<br><span class="award">${paper.award}</span>`
             : "";
 
+          const titleHtml = paper.link
+            ? `<a href="${paper.link}" target="_blank" rel="noopener noreferrer">${paper.title}</a>`
+            : `<span class="paper-title">${paper.title}</span>`;
+
           item.innerHTML = `
             ${paper.short ? `<strong>[${paper.short}]</strong> ` : ""}
-            <a href="${paper.link || '#'}" target="_blank" rel="noopener noreferrer">${paper.title}</a>${codeLink}<br>
+            ${titleHtml}${codeLink}<br>
             <span class="authors">${highlightedAuthors}</span><br>
             <span class="venue-full">${paper.venue}, ${paper.year}${awardInline}</span>
             ${awardBlock}
@@ -54,6 +59,6 @@ document.addEventListener('DOMContentLoaded', () => {
     .catch(error => {
       console.error('Failed to load publications:', error);
       const container = document.getElementById('paper-list');
-      container.innerHTML = '<p>Failed to load publication list.</p>';
+      container.innerHTML = '<p class="paper-list-error">Failed to load publication list.</p>';
     });
 });

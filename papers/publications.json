@@ -38,7 +38,7 @@
     ],
     "venue": "The 42nd IEEE International Conference on Data Engineering",
     "short": "ICDE'26",
-    "year": "2026",
+    "year": 2026,
     "link": "",
     "code": ""
   },
@@ -52,7 +52,7 @@
     ],
     "venue": "The 22nd USENIX Symposium on Networked Systems Design and Implementation",
     "short": "NSDI'25",
-    "year": "2025",
+    "year": 2025,
     "link": "https://www.usenix.org/conference/nsdi25/presentation/wang-qing",
     "code": null
   },
@@ -65,7 +65,7 @@
     ],
     "venue": "Communications of the ACM",
     "short": "CACM",
-    "year": "2025",
+    "year": 2025,
     "link": "https://cacm.acm.org/research-highlights/designing-an-efficient-tree-index-on-disaggregated-memory/",
     "award": "Research Highlight",
     "code": "https://github.com/thustorage/Sherman"
@@ -81,7 +81,7 @@
     ],
     "venue": "ACM Symposium on Cloud Computing",
     "short": "SoCC'25",
-    "year": "2025"
+    "year": 2025
   },
   {
     "title": "Weaver: Efficient Multi-LLM Serving with Attention Offloading",
@@ -94,7 +94,7 @@
     ],
     "venue": "USENIX Annual Technical Conference",
     "short": "USENIX ATC'25",
-    "year": "2025",
+    "year": 2025,
     "link": "https://www.usenix.org/conference/atc25/presentation/gao",
     "code": null
   },
@@ -107,7 +107,7 @@
     ],
     "venue": "The 23rd USENIX Conference on File and Storage Technologies",
     "short": "FAST'25",
-    "year": "2025",
+    "year": 2025,
     "link": "https://www.usenix.org/conference/fast25/presentation/gao",
     "code": "https://github.com/thustorage/shiftlock",
     "award": "Distinguished Artifact Award"
@@ -122,7 +122,7 @@
     ],
     "venue": "The 20th European Conference on Computer Systems",
     "short": "EuroSys'25",
-    "year": "2025",
+    "year": 2025,
     "link": "https://dl.acm.org/doi/10.1145/3689031.3696062",
     "code": "https://github.com/thustorage/deft"
   },
@@ -138,7 +138,7 @@
     ],
     "venue": "ACM Transactions on Storage",
     "short": "TOS",
-    "year": "2025",
+    "year": 2025,
     "link": "https://dl.acm.org/doi/10.1145/3700772",
     "award": "Fast-tracked",
     "code": "https://github.com/thustorage/TeRM"
@@ -154,7 +154,7 @@
     ],
     "venue": "IEEE Transactions on Computers",
     "short": "TC",
-    "year": "2025",
+    "year": 2025,
     "link": "https://doi.org/10.1109/TC.2025.3605763"
   },
   {
@@ -169,7 +169,7 @@
     ],
     "venue": "The 17th ACM Workshop on Hot Topics in Storage and File Systems",
     "short": "HotStorage'25",
-    "year": "2025",
+    "year": 2025,
     "link": null,
     "code": null
   },
@@ -185,7 +185,7 @@
     ],
     "venue": "The 22nd USENIX Conference on File and Storage Technologies",
     "short": "FAST'24",
-    "year": "2024",
+    "year": 2024,
     "link": "https://www.usenix.org/conference/fast24",
     "code": "https://github.com/thustorage/TeRM",
     "award": "Invited for fast-tracked publication in ACM Transactions on Storage"
@@ -201,7 +201,7 @@
     ],
     "venue": "ACM Transactions on Storage",
     "short": "TOS",
-    "year": "2024",
+    "year": 2024,
     "link": "https://dl.acm.org/doi/10.1145/3633285",
     "code": "https://github.com/thustorage/perseid",
     "award": "Fast-tracked"
@@ -215,7 +215,7 @@
       "Jiwu Shu"
     ],
     "venue": "Journal of Computer Research and Development (in Chinese)",
-    "year": "2024",
+    "year": 2024,
     "code": null
   },
   {
@@ -228,7 +228,7 @@
     ],
     "venue": "The 17th USENIX Symposium on Operating Systems Design and Implementation",
     "short": "OSDI'23",
-    "year": "2023",
+    "year": 2023,
     "link": "https://www.usenix.org/conference/osdi23/presentation/wang-qing",
     "code": "https://github.com/thustorage/rowan"
   },
@@ -241,7 +241,7 @@
     ],
     "venue": "SIGMOD Record, March 2023 (Vol. 52, No. 1)",
     "short": "SIGMOD Record",
-    "year": "2023",
+    "year": 2023,
     "code": "https://github.com/thustorage/Sherman",
     "link": "https://sigmodrecord.org/2023/04/29/building-write-optimized-tree-indexes-on-disaggregated-memory/",
     "award": "Invited"
@@ -257,7 +257,7 @@
     ],
     "venue": "USENIX Annual Technical Conference",
     "short": "USENIX ATC'23",
-    "year": "2023",
+    "year": 2023,
     "link": "https://www.usenix.org/conference/atc23/presentation/wang-jing",
     "code": "https://github.com/thustorage/perseid",
     "award": "Invited for fast-tracked publication in ACM Transactions on Storage"
@@ -273,7 +273,7 @@
     ],
     "venue": "The 21st USENIX Conference on File and Storage Technologies",
     "short": "FAST'23",
-    "year": "2023",
+    "year": 2023,
     "link": "https://www.usenix.org/conference/fast23/presentation/yan",
     "code": "https://github.com/YanB25/Patronus"
   },
@@ -288,7 +288,7 @@
     ],
     "venue": "The 21st USENIX Conference on File and Storage Technologies",
     "short": "FAST'23",
-    "year": "2023",
+    "year": 2023,
     "link": "https://www.usenix.org/conference/fast23/presentation/gao",
     "code": null
   },
@@ -305,7 +305,7 @@
     ],
     "venue": "The 49th International Conference on Very Large Data Bases",
     "short": "VLDB'23",
-    "year": "2023",
+    "year": 2023,
     "link": "https://www.vldb.org/pvldb/vol16/p1013-xie.pdf",
     "code": "https://github.com/thustorage/PetPS"
   },
@@ -317,7 +317,7 @@
       "Jiwu Shu"
     ],
     "venue": "Journal of Computer Research and Delevopment (in Chinese)",
-    "year": "2023",
+    "year": 2023,
     "link": null,
     "code": null
   },
@@ -332,7 +332,7 @@
       "Xiaojian Liao"
     ],
     "venue": "SCIENTIA SINICA Informationis (in Chinese)",
-    "year": "2023",
+    "year": 2023,
     "link": "https://storage.cs.tsinghua.edu.cn/publications/分离式数据中心的存储系统研究进展.pdf",
     "code": null
   },
@@ -345,7 +345,7 @@
     ],
     "venue": "ACM SIGMOD International Conference on Management of Data",
     "short": "SIGMOD'22",
-    "year": "2022",
+    "year": 2022,
     "award": "2023 ACM SIGMOD Research Highlight Award,  CACM Research Highlight",
     "link": "https://dl.acm.org/doi/10.1145/3514221.3517824",
     "code": "https://github.com/thustorage/Sherman"
@@ -361,7 +361,7 @@
     ],
     "venue": "ACM Transactions on Storage",
     "short": "TOS",
-    "year": "2022",
+    "year": 2022,
     "link": "https://dl.acm.org/doi/10.1145/3507922",
     "award": "Fast tracked",
     "code": "https://github.com/thustorage/osdi21ae"
@@ -378,7 +378,7 @@
     ],
     "venue": "USENIX Annual Technical Conference",
     "short": "USENIX ATC'22",
-    "year": "2022",
+    "year": 2022,
     "link": "https://www.usenix.org/conference/atc22/presentation/li-junru",
     "code": null
   },
@@ -394,7 +394,7 @@
     ],
     "venue": "USENIX Annual Technical Conference",
     "short": "USENIX ATC'22",
-    "year": "2022",
+    "year": 2022,
     "link": "https://www.usenix.org/conference/atc22/presentation/wang-jing",
     "code": "https://github.com/thustorage/pacman"
   },
@@ -411,7 +411,7 @@
     ],
     "venue": "The 17th European Conference on Computer Systems",
     "short": "EuroSys'22",
-    "year": "2022",
+    "year": 2022,
     "link": "https://dl.acm.org/doi/10.1145/3492321.3519554",
     "code": null
   },
@@ -428,7 +428,7 @@
     ],
     "venue": "The 48th International Conference on Very Large Data Bases",
     "short": "VLDB'22",
-    "year": "2022",
+    "year": 2022,
     "link": "https://vldb.org/pvldb/vol15/p2881-li.pdf",
     "code": null
   },
@@ -442,7 +442,7 @@
     ],
     "venue": "The 15th USENIX Symposium on Operating Systems Design and Implementation",
     "short": "OSDI'21",
-    "year": "2021",
+    "year": 2021,
     "link": "https://www.usenix.org/conference/osdi21/presentation/wang-qing",
     "code": "https://github.com/thustorage/osdi21ae",
     "award": "Invited for fast-tracked publication in ACM Transactions on Storage"
@@ -459,7 +459,7 @@
     ],
     "venue": "USENIX Conference on File and Storage Technologies",
     "short": "FAST'21",
-    "year": "2021",
+    "year": 2021,
     "link": "https://www.usenix.org/conference/fast21/presentation/wang",
     "code": null
   },
@@ -474,7 +474,7 @@
     ],
     "venue": "ACM Transactions on Storage",
     "short": "TOS",
-    "year": "2021",
+    "year": 2021,
     "link": "https://dl.acm.org/doi/10.1145/3448418",
     "code": null
   },
@@ -489,7 +489,7 @@
     ],
     "venue": "37th IEEE International Conference on Data Engineering",
     "short": "ICDE'21",
-    "year": "2021",
+    "year": 2021,
     "link": "https://ieeexplore.ieee.org/document/9458662/",
     "code": null
   },
@@ -501,7 +501,7 @@
       "Jiwu Shu"
     ],
     "venue": "Journal of Computer Research and Delevopment (in Chinese)",
-    "year": "2021",
+    "year": 2021,
     "link": "https://crad.ict.ac.cn/en/article/doi/10.7544/issn1000-1239.2021.20200381",
     "code": null
   },
@@ -516,7 +516,7 @@
     ],
     "venue": "Design Automation Conference",
     "short": "DAC'20",
-    "year": "2020",
+    "year": 2020,
     "link": "https://ieeexplore.ieee.org/document/9218554",
     "code": null
   },
@@ -532,7 +532,7 @@
     ],
     "venue": "Proceedings of the 25th International Conference on Architectural Support for Programming Languages and Operating Systems",
     "short": "ASPLOS'20",
-    "year": "2020",
+    "year": 2020,
     "link": "https://dl.acm.org/doi/10.1145/3373376.3378515",
     "code": null
   },
@@ -547,7 +547,7 @@
     ],
     "venue": "46th International Conference on Very Large Data Bases",
     "short": "VLDB'20",
-    "year": "2020",
+    "year": 2020,
     "link": "https://dl.acm.org/doi/10.14778/3407790.3407850",
     "code": null
   },
@@ -563,7 +563,7 @@
     ],
     "venue": "ACM Transactions on Storage",
     "short": "TOS",
-    "year": "2020",
+    "year": 2020,
     "link": "https://dl.acm.org/doi/10.1145/3412852",
     "code": null
   }
