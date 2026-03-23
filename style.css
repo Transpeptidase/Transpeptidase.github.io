@@ -362,6 +362,18 @@ footer p {
   color: #666;
 }
 
+.footer-links {
+  margin-top: 0.45rem;
+}
+
+.footer-links a {
+  color: #666;
+}
+
+.footer-links a:hover {
+  color: #0066cc;
+}
+
 /* ===== Awards 列表：与 Services 节奏一致 ===== */
 #awards ul {
   margin-top: 0.25em;
