@@ -27,6 +27,22 @@
     "award": "Best Paper Award Candidate"
   },
   {
+    "title": "Breaking Barriers in Atomic Scaling: A Hardware-Software-Collaborated Framework to Deconstruct RDMA Atomic",
+    "authors": [
+      "Guangyang Deng",
+      "Qiangsheng Su",
+      "Zhirong Shen",
+      "Qing Wang",
+      "Yina Lv",
+      "Ronglong Wu",
+      "Jiwu Shu"
+    ],
+    "venue": "Proceedings of International Symposium on Computer Architecture",
+    "short": "ISCA'26",
+    "year": 2026,
+    "link": null
+  },
+  {
     "title": "Switch∆: Asynchronous Metadata Updating for Distributed Storage with In-Network Data Visibility",
     "authors": [
       "Junru Li",
@@ -41,6 +57,29 @@
     "year": 2026,
     "link": "",
     "code": ""
+  },
+  {
+    "title": "BCCE: Block-Centric GPU Co-Design for Real-Time Range-Top-K Query at Scale",
+    "authors": [
+      "Chengying Huan",
+      "Ziheng Meng",
+      "Zhengyi Yang",
+      "Yongchao Liu",
+      "Jie Zhang",
+      "Qing Wang",
+      "Jing Wang",
+      "Shaonan Ma",
+      "Zhibin Wang",
+      "Mingxing Zhang",
+      "Rong Gu",
+      "Baokun Wang",
+      "Guihai Chen",
+      "Chen Tian"
+    ],
+    "venue": "ACM International Symposium on High-Performance Parallel and Distributed Computing",
+    "short": "HPDC'26",
+    "year": 2026,
+    "link": null
   },
   {
     "title": "Achieving Wire-Latency Storage Systems by Exploiting Hardware ACKs",
