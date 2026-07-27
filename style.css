@@ -95,13 +95,39 @@ body {
   }
 }
 
+/* ===== 页内导航 ===== */
+.section-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  gap: 1.75rem;
+  padding: 0.7rem 0;
+  margin-bottom: 2rem;
+  background: #fff;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.section-nav a {
+  color: #555;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  padding: 0;
+}
+
+.section-nav a:hover {
+  color: #0066cc;
+}
+
 /* ===== 主内容区 ===== */
 main {
-  padding-top: 0.5rem;
+  padding-top: 0;
 }
 
 section {
   margin-bottom: 2.5rem;
+  scroll-margin-top: 4rem;
 }
 
 section:last-of-type {
@@ -229,6 +255,12 @@ a:focus-visible {
   color: #1f77b4;
 }
 
+#about p:last-child {
+  margin-top: 1.15rem;
+  padding-left: 0.9rem;
+  border-left: 2px solid #1f77b4;
+}
+
 /* ===== Services 区块 ===== */
 #services .service-label {
   margin: 0 0 0.4em 0;
@@ -278,14 +310,44 @@ a:focus-visible {
 }
 
 /* ===== 论文与奖项 ===== */
+#paper-list {
+  display: grid;
+  grid-template-columns: 4rem minmax(0, 1fr);
+  column-gap: 1.5rem;
+}
+
+#paper-list > ul {
+  margin: 0 0 1.35rem;
+  padding: 0;
+  list-style: none;
+}
+
+.paper-heading {
+  display: block;
+  line-height: 1.45;
+  margin-bottom: 0.12rem;
+}
+
+.paper-title {
+  font-weight: 500;
+}
+
+.paper-venue-tag {
+  font-weight: 650;
+  margin-right: 0.3em;
+}
+
 .authors {
+  display: inline;
   font-size: 0.9rem;
   color: #555;
+  line-height: 1.45;
 }
 
 .venue-full {
   font-size: 0.9rem;
   color: #666;
+  line-height: 1.45;
 }
 
 .award-inline {
@@ -309,10 +371,9 @@ a:focus-visible {
 
 /* 论文条目：与正文行高一致，上下 padding 对称 */
 #paper-list li {
-  margin-bottom: 0.25rem;
-  line-height: 1.6;
-  padding-top: 0.35rem;
-  padding-bottom: 0.35rem;
+  margin: 0;
+  line-height: 1.45;
+  padding: 0.65rem 0;
   border-top: 1px solid #f0f0f0;
 }
 
@@ -328,16 +389,21 @@ a:focus-visible {
 
 /* 年份分组标题 */
 #paper-list h3 {
-  margin: 2rem 0 0.25rem 0;
+  margin: 0;
+  padding-top: 0.65rem;
   font-size: 1rem;
   font-weight: 600;
-  color: #888;
+  color: #777;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
 #paper-list > h3:first-child {
-  margin-top: 0;
+  padding-top: 0;
+}
+
+#paper-list > h3:first-child + ul > li:first-child {
+  padding-top: 0;
 }
 
 /* paper list 加载/错误状态 */
@@ -385,25 +451,61 @@ footer p {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 1.5rem;
+    gap: 1rem;
+    padding: 1.25rem 0 1rem;
   }
 
   .header-flex .info {
     width: 100%;
   }
 
+  .header-flex h1 {
+    font-size: 1.5rem;
+  }
+
+  .header-flex .info p {
+    font-size: 1rem;
+  }
+
   .avatar-rect {
-    width: 120px;
-    height: 120px;
+    width: 104px;
+    height: 104px;
+  }
+
+  .section-nav {
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin: 0 -0.15rem 1.75rem;
+    padding: 0.65rem 0.15rem;
+  }
+
+  .section-nav a {
+    font-size: 0.8125rem;
   }
 
   section {
     margin-bottom: 2rem;
   }
 
+  #paper-list {
+    display: block;
+  }
+
+  #paper-list h3 {
+    padding-top: 0;
+    margin: 1.75rem 0 0.2rem;
+  }
+
+  #paper-list > h3:first-child {
+    margin-top: 0;
+  }
+
+  #paper-list > ul {
+    margin-bottom: 0;
+  }
+
   #paper-list li {
-    margin-bottom: 0.25rem;
-    padding-bottom: 0.35rem;
+    padding: 0.55rem 0;
   }
 }
 

@@ -40,16 +40,18 @@ document.addEventListener('DOMContentLoaded', () => {
             : "";
 
           const titleHtml = paper.link
-            ? `<a href="${paper.link}" target="_blank" rel="noopener noreferrer">${paper.title}</a>`
+            ? `<a href="${paper.link}" target="_blank" rel="noopener noreferrer" class="paper-title">${paper.title}</a>`
             : `<span class="paper-title">${paper.title}</span>`;
 
-          item.innerHTML = `
-            ${paper.short ? `<strong>[${paper.short}]</strong> ` : ""}
-            ${titleHtml}${codeLink}<br>
-            <span class="authors">${highlightedAuthors}</span><br>
-            <span class="venue-full">${paper.venue}, ${paper.year}${awardInline}</span>
-            ${awardBlock}
-          `;
+          const venueTag = paper.short
+            ? `<strong class="paper-venue-tag">[${paper.short}]</strong>`
+            : "";
+
+          item.innerHTML =
+            `<span class="paper-heading">${venueTag}${titleHtml}${codeLink}</span>` +
+            `<span class="authors">${highlightedAuthors}</span><br>` +
+            `<span class="venue-full">${paper.venue}, ${paper.year}${awardInline}</span>` +
+            awardBlock;
 
           ul.appendChild(item);
         });
