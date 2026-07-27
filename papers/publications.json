@@ -1,5 +1,24 @@
 [
   {
+    "title": "ns-GPU: Towards Fast Simulation for Large-Scale Networks with GPUs",
+    "authors": [
+      "Songyue Liu",
+      "Songyuan Bai",
+      "Qing Wang",
+      "Qingkai Meng",
+      "Kai Yan",
+      "Zijun Mei",
+      "Wanchun Dou",
+      "Guihai Chen",
+      "Fu Xiao",
+      "Chen Tian"
+    ],
+    "venue": "The 24th USENIX Symposium on Networked Systems Design and Implementation",
+    "short": "NSDI'27",
+    "year": 2027,
+    "link": null
+  },
+  {
     "title": "Cost-efficient Archive Cloud Storage with Tape: Design and Deployment",
     "authors": [
       "Qing Wang*",
@@ -23,7 +42,7 @@
     "venue": "The 24th USENIX Conference on File and Storage Technologies",
     "short": "FAST'26",
     "year": 2026,
-    "link": "https://www.usenix.org/conference/fast26/",
+    "link": "https://www.usenix.org/system/files/fast26-wang.pdf",
     "award": "Best Paper Award Candidate"
   },
   {
@@ -43,6 +62,62 @@
     "link": null
   },
   {
+    "title": "Hera: Eliminating the I/O Tax of RAID on High-Capacity SSDs",
+    "authors": [
+      "Jian Chen",
+      "Congming Gao",
+      "Fan Yang",
+      "Qing Wang",
+      "Zhengzhi Xin",
+      "Yuhao Zhang",
+      "Youyou Lu",
+      "Jiwu Shu"
+    ],
+    "venue": "The 59th IEEE/ACM International Symposium on Microarchitecture",
+    "short": "MICRO'26",
+    "year": 2026,
+    "link": null
+  },
+  {
+    "title": "Pegasus: A Data Center Network for Bare-Metal AI Cloud",
+    "authors": [
+      "Xianneng Zou",
+      "Yadong Liu",
+      "Yiran Zhang",
+      "Jian Zhao",
+      "Zhaoxun Zhou",
+      "Qing Wang",
+      "Xingyi Li",
+      "Liang Wang",
+      "Xingda Wei",
+      "Xiaojie Huang",
+      "Zhaohe Chen",
+      "Yinben Xia",
+      "Yuxi Wang",
+      "Kai Ren",
+      "Lizhou Gao",
+      "Jiajun Liang",
+      "Jian Wang",
+      "Chunxu Zhao",
+      "Weifeng Zhang",
+      "Lu Shi",
+      "Xin Li",
+      "Jiewei Yang",
+      "Hao Lu",
+      "Yunpeng Guan",
+      "Dongbo Gu",
+      "Chao Pei",
+      "Xiang Li",
+      "Zekun He",
+      "Yong Jiang",
+      "Yachen Wang"
+    ],
+    "venue": "ACM SIGCOMM 2026 Conference",
+    "short": "SIGCOMM'26",
+    "year": 2026,
+    "link": null
+  },
+  {
     "title": "Switch∆: Asynchronous Metadata Updating for Distributed Storage with In-Network Data Visibility",
     "authors": [
       "Junru Li",
@@ -55,8 +130,8 @@
     "venue": "The 42nd IEEE International Conference on Data Engineering",
     "short": "ICDE'26",
     "year": 2026,
-    "link": "",
-    "code": ""
+    "link": null,
+    "code": null
   },
   {
     "title": "BCCE: Block-Centric GPU Co-Design for Real-Time Range-Top-K Query at Scale",
@@ -80,6 +155,26 @@
     "short": "HPDC'26",
     "year": 2026,
     "link": null
+  },
+  {
+    "title": "STAR: Decode-Phase Rescheduling for LLM Inference",
+    "authors": [
+      "Zhibin Wang",
+      "Zetao Hong",
+      "Xue Li",
+      "Zibo Wang",
+      "Shipeng Li",
+      "Qingkai Meng",
+      "Qing Wang",
+      "Chengying Huan",
+      "Rong Gu",
+      "Sheng Zhong",
+      "Chen Tian"
+    ],
+    "venue": "The 35th International Symposium on High-Performance Parallel and Distributed Computing",
+    "short": "HPDC'26",
+    "year": 2026,
+    "link": "https://wzbxpy.github.io/paper/HPDC26-Zhibin-STAR.pdf"
   },
   {
     "title": "Achieving Wire-Latency Storage Systems by Exploiting Hardware ACKs",
