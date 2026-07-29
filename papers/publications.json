@@ -79,6 +79,27 @@
     "link": null
   },
   {
+    "title": "AlphaCu: A Transformation-Driven Synthesis Framework for LLM-based GPU Kernel Generation",
+    "authors": [
+      "Yangjie Zhou",
+      "Xing Ma",
+      "Zihan Liu",
+      "Qing Wang",
+      "Weihao Cui",
+      "Wu Sun",
+      "Hanjing Wang",
+      "Binhang Qi",
+      "Jingwen Leng",
+      "Yun Lin",
+      "Jin Song Dong",
+      "Minyi Guo"
+    ],
+    "venue": "The 41st IEEE/ACM International Conference on Automated Software Engineering",
+    "short": "ASE'26",
+    "year": 2026,
+    "link": null
+  },
+  {
     "title": "Pegasus: A Data Center Network for Bare-Metal AI Cloud",
     "authors": [
       "Xianneng Zou",
