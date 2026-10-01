@@ -210,6 +210,18 @@ li:last-child {
 #research > ul > li {
   margin-bottom: 0.4em;
 }
+#research .research-questions {
+  list-style: none;
+  padding-left: 1rem;
+}
+#research .research-questions > li {
+  position: relative;
+}
+#research .research-questions > li::before {
+  content: "-";
+  position: absolute;
+  left: -1rem;
+}
 #research ul ul {
   margin-top: 0.2em;
   margin-bottom: 0;
